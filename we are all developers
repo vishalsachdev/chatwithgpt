@@ -1,0 +1,28 @@
+
+Prompt for Interactive Article explorer - Generated using Claude 3.5 sonnet, but should work with other models as well. 
+
+"Create an interactive React application that explores the key concepts of [ARTICLE TOPIC]. The app should:
+
+1. Break down the article into 4-5 main stages or concepts.
+2. For each stage, provide:
+   - A title
+   - A brief description
+   - 3-4 key points
+   - A quiz question with 4 multiple-choice options
+
+3. Include navigation to move between stages.
+4. Implement a quiz feature that:
+   - Allows users to select an answer
+   - Provides immediate feedback
+   - Explains the correct answer
+
+5. Use basic HTML and inline styles for simplicity (no external UI libraries).
+6. Handle potential errors and edge cases.
+
+The app should be self-contained in a single React component. Provide the full code for the component, including the data structure for the stages and quizzes.
+
+Base the content strictly on the following article: [PASTE ARTICLE TEXT HERE]
+
+Please ensure all quiz questions and answers are accurately derived from the article content."
+
+

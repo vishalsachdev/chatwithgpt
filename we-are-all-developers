@@ -1,5 +1,5 @@
 
-Prompt for Interactive Article explorer - Generated using Claude 3.5 sonnet, but should work with other models as well. 
+Prompt template for creating an Interactive Article explorer - Generated using Claude 3.5 sonnet, but should work with other models as well. 
 
 "Create an interactive React application that explores the key concepts of [ARTICLE TOPIC]. The app should:
 

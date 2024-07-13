@@ -1,7 +1,8 @@
+# AI Prompt Templates
 
-Prompt template for creating an Interactive Article explorer - Generated using Claude 3.5 sonnet, but should work with other models as well. 
+## 1. Interactive Article Explorer
 
-"Create an interactive React application that explores the key concepts of [ARTICLE TOPIC]. The app should:
+Create an interactive React application that explores the key concepts of [ARTICLE TOPIC]. The app should:
 
 1. Break down the article into 4-5 main stages or concepts.
 2. For each stage, provide:
@@ -9,13 +10,11 @@ Prompt template for creating an Interactive Article explorer - Generated using C
    - A brief description
    - 3-4 key points
    - A quiz question with 4 multiple-choice options
-
 3. Include navigation to move between stages.
 4. Implement a quiz feature that:
    - Allows users to select an answer
    - Provides immediate feedback
    - Explains the correct answer
-
 5. Use basic HTML and inline styles for simplicity (no external UI libraries).
 6. Handle potential errors and edge cases.
 
@@ -23,10 +22,11 @@ The app should be self-contained in a single React component. Provide the full c
 
 Base the content strictly on the following article: [PASTE ARTICLE TEXT HERE]
 
-Please ensure all quiz questions and answers are accurately derived from the article content."
-_____________________________________________________________
+Please ensure all quiz questions and answers are accurately derived from the article content.
 
-Prompt template for creating an 8 nouns interactive explorer app 
+---
+
+## 2. 8 Nouns Interactive Explorer App
 
 I have a JSON file containing compressed posts from a discussion forum. I want to create a React app that displays this data. Here are the specific requirements:
 
@@ -42,6 +42,7 @@ I have a JSON file containing compressed posts from a discussion forum. I want t
 
 Here's a sample structure of the JSON data:
 
+```json
 [
   {
     "id": 123456,
@@ -52,11 +53,8 @@ Here's a sample structure of the JSON data:
       "Noun1": {
         "noun": "Example",
         "description": "This is a description of the noun"
-      },
-      // More nouns...
+      }
     }
-  },
-  // More student entries...
+  }
 ]
-
 Please create this React component, ensuring it's ready to use with the full dataset pasted in place of the sample data.
